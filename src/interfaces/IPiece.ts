@@ -1,5 +1,5 @@
-import { IPerContext } from "./IPerContext";
+import { IPerContext } from './IPerContext';
 
 export interface IPiece {
-    execute(context: IPerContext, args:any) : Promise<IPerContext>;
+  execute(context: IPerContext, args?: any): Promise<IPerContext>;
 }

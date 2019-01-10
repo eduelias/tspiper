@@ -1,5 +1,5 @@
 export enum PipeFlow {
-    CONTINUE,
-    BREAKONE,
-    BREAK    
+  CONTINUE,
+  BREAKONE,
+  BREAK
 }

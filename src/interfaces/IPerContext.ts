@@ -1,6 +1,6 @@
-import { PipeFlow } from "..";
+import { PipeFlow } from '..';
 
 export interface IPerContext {
-    debug:{ currentPipe: string }
-    flow: PipeFlow
+  debug: { currentPipe: string };
+  flow: PipeFlow;
 }

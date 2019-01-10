@@ -1,5 +1,3 @@
-import { IPiece } from "./IPiece";
+import { IPiece } from './IPiece';
 
-export interface IPipeFactory {
-    () : IPiece;
-}
+export type IPipeFactory = () => IPiece;
