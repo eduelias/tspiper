@@ -1,11 +1,11 @@
 {
-  "name": "piper",
+  "name": "tspiper",
   "version": "0.1.0",
-  "repository": "https://github.com/eduelias/ploomper",
+  "repository": "https://github.com/eduelias/tspiper",
   "description": "It's a pipe manager",
   "main": "dist/index.js",
   "scripts": {
-    "gb": "barrelsby --directory src --delete --location branch",
+    "gb": "barrelsby --directory src --delete --location branch --singleQuotes",
     "test": "jest"
   },
   "jest": {
