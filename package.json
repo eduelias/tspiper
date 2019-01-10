@@ -1,0 +1,16 @@
+{
+  "name": "ploomper",
+  "version": "0.1.0",
+  "repository": "https://github.com/eduelias/ploomper",
+  "description": "It's a pipe manager",
+  "main": "dist/index.js",
+  "scripts": {
+    "gb" : "barrelsby --directory src --delete --location branch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduardo Elias Saleh",
+  "license": "MIT",
+  "devDependencies": {
+    "barrelsby": "^1.0.2"
+  }
+}
