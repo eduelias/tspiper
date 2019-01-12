@@ -5,7 +5,7 @@
   "description": "It's a pipe manager",
   "main": "dist/index.js",
   "scripts": {
-    "gb": "barrelsby --directory src --delete --location branch --singleQuotes",
+    "gb": "barrelsby --directory src --delete --location branch --singleQuotes --structure flat",
     "test": "jest"
   },
   "jest": {
