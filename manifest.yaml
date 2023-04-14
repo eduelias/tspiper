@@ -1,0 +1,30 @@
+# Project Information
+team:
+  name: Eduardo Elias Myself
+  wiki: https://github.com/eduelias/tspiper/wiki
+
+project:
+  name: TS Piper
+  description: A Typescript event execution pipeline
+
+# Ties to other projects
+ties:
+  dependencies:
+    - name: service-1
+      repo: https://github.com/octokit/octokit.js
+    - name: service-2
+      web: https://pynative.com/python-yaml/
+  consumers:
+    - name: client-1
+      repo: https://github.com/PyGithub/PyGithub
+
+management: 
+  c4m: path/to/C4_model.md
+  devops_checklist: path/to/my_devops_checklist.xlsx
+
+# AWS Tags
+aws_tags:
+  - name: Project
+    value: CCS
+  - name: SBP GTC
+    value: SBP_Lab1
